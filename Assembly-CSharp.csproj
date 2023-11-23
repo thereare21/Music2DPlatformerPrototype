@@ -64,6 +64,8 @@
     <Compile Include="Assets/Scripts/EnemyController.cs" />
     <Compile Include="Assets/Scripts/PlayerController.cs" />
     <Compile Include="Assets/Scripts/Gem.cs" />
+    <Compile Include="Assets/Scripts/Drum/DrumBounceScript.cs" />
+    <Compile Include="Assets/Scripts/Drum/DrumBounceChlidHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
