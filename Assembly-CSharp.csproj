@@ -707,6 +707,9 @@
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VectorGraphics">
+      <HintPath>Library/ScriptAssemblies/Unity.VectorGraphics.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Common.Path.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.Common.Path.Editor.dll</HintPath>
     </Reference>
@@ -734,6 +737,12 @@
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.003">
+      <HintPath>Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.003.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VectorGraphics.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VectorGraphics.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
       <HintPath>Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
@@ -745,6 +754,9 @@
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.003">
+      <HintPath>Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.003.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Collections">
       <HintPath>Library/ScriptAssemblies/Unity.Collections.dll</HintPath>
