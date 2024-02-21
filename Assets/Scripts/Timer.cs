@@ -1,3 +1,30 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9236769dcc5f8455c8e5f700d47b5727668be166fa60d22eb6bedf4bc36faa70
-size 558
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+/*
+ * Class for controlling the timer UI display 
+ */
+public class Timer : MonoBehaviour
+{
+    private Text text;
+    private float time;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        text = GetComponent<Text>();
+        time = 0;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        time += Time.deltaTime;
+
+        int seconds = (int)time;
+
+        text.text = "Time : " + seconds;
+    }
+}

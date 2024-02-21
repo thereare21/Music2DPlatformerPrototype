@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c99231410950902a6629255145c735768c0bec7fd4de6efcbc07010c5b6fa9b7
-size 456
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+/*
+ * Class for controlling the Score UI display 
+ */
+public class Score : MonoBehaviour
+{
+    private Text text;
+    // Start is called before the first frame update
+    void Start()
+    {
+        text = GetComponent<Text>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        text.text = "Score : " + Gem.totalscore;
+    }
+}
